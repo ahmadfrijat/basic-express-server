@@ -8,7 +8,6 @@ describe('validatot test', () => {
     it('no name', async () => {
         const response = await request.get('/person');
         expect(response.status).toEqual(500);
-        expect(response.query).toBeFalsy();
       });
       it('whith name', async () => {
         const response = await request.get('/person?name=ahmad');
