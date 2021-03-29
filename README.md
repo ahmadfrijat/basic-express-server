@@ -8,6 +8,8 @@
 # how to work :
 
 * ```npm init -y ```
+* ```npm i express dotenv ```
+* ```npm i -D supertest jest ```
 
 
 # UML :
